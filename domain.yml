@@ -6,6 +6,7 @@ intents:
   - idk
   - mood
   - user_answers
+  - sample
 
 actions:
 - utter_greet
