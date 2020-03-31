@@ -1,0 +1,53 @@
+
+
+intents:
+  - greet
+  - goodbye
+  - idk
+  - mood
+  - user_answers
+
+actions:
+- utter_greet
+- utter_play_game
+- utter_goodbye
+- utter_idk
+- utter_game_intro
+- utter_ready
+- utter_characters
+- utter_start
+- utter_question1
+- action_user_answers
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_play_game:
+  - text: "Do you want to play a game?"
+    image: "https://i.pinimg.com/originals/0e/5e/d3/0e5ed305f4d5a37eb08559dba929805b.jpg"
+
+  utter_game_intro:
+  - text: "Great! This is how it works: I’ll show you 10 famous people, you’ll
+ have to pick one of them and I’ll try to guess who you’re thinking of! When 
+ you’re ready, I’ll ask you some questions to which you’ll have to answer ‘yes’, ‘no’ or ‘I don’t know’ according to your knowledge about the person you chose."
+ 
+  utter_start:
+  - text: "Are you ready? Let's start!"
+
+  utter_characters:
+  - text: "Here are the celebrities. Choose one of them!"
+
+  utter_ready:
+  - text: "Ready? There we go!"
+
+  utter_question1:
+  - text: "Question 1: Is your character a woman?"
+  - text: "Question 1: Is your character a man?"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Ok, bye!"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
