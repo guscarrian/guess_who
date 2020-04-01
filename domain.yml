@@ -7,6 +7,8 @@ intents:
   - mood
   - user_answers
   - sample
+  - affirm
+  - deny
 
 actions:
 - utter_greet

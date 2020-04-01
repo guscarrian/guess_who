@@ -1,3 +1,4 @@
+
 ## intent:greet
 - hey
 - hello
@@ -23,6 +24,25 @@
 - see you around
 - see you later
 
+## intent:affirm
+- yes
+- yes, please
+- sure
+- of course
+- why not
+- let's go
+- I'd love to
+- I'd like to
+- I would love to
+- I would like to
+- go ahead
+
+## intent:deny
+- no
+- I'd rather not to
+- no, thanks
+- I don't feel like it
+
 ## intent:idk
 - I don't know
 - I'm not sure
@@ -34,14 +54,5 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
-
-## intent:user_answers
-- I'm not sure
-- Maybe
-- I don't know
-- I don't think so
-- Yes
-- No 
-
 
 
