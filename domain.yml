@@ -21,6 +21,8 @@ actions:
 - utter_start
 - utter_question1
 - action_user_answers
+- action_query_knowledge_base
+
 
 templates:
   utter_greet:
@@ -51,6 +53,14 @@ templates:
   utter_goodbye:
   - text: "Bye"
   - text: "Ok, bye!"
+
+utter_ask_rephrase:
+  - text: "Sorry, I'm not sure I understand. Can you rephrase?"
+  - text: "Can you please rephrase? I did not got that."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
