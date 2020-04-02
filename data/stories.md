@@ -1,40 +1,33 @@
- 
-
-
-## negative path
+## Happy path 1
 * greet
   - utter_greet
-* mood
-  - utter_play_game
-* deny
-  - utter_goodbye
+* query_knowledge_base
+  - action_query_knowledge_base
 * goodbye
-
-## affirmative_incomplete  path
-* greet
-  - utter_greet
-* mood
-  - utter_play_game
-* user_answers 
-  - utter_game_intro
-  - utter_start
-* user_answers
   - utter_goodbye
 
-## affirmative path
+## Happy path 2
 * greet
   - utter_greet
-* mood
-  - utter_play_game
-* user_answers
-  - utter_game_intro
-  - utter_start
-* user_answers
-  - utter_characters
-  - utter_ready
-  - utter_question1
+* query_knowledge_base
+  - action_query_knowledge_base
+* query_knowledge_base
+  - action_query_knowledge_base
+* goodbye
+  - utter_goodbye
 
-## custom user_answers actions
-*user_answers
-  - action_user_answers
+## Hello
+* greet
+- utter_greet
 
+## Query Knowledge Base
+* query_knowledge_base
+- action_query_knowledge_base
+
+## Bye
+* goodbye
+- utter_goodbye
+
+## bot challenge
+* bot_challenge
+  - utter_iamabot
