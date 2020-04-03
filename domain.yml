@@ -54,7 +54,7 @@ templates:
   - text: "Bye"
   - text: "Ok, bye!"
 
-utter_ask_rephrase:
+ utter_ask_rephrase:
   - text: "Sorry, I'm not sure I understand. Can you rephrase?"
   - text: "Can you please rephrase? I did not got that."
 
