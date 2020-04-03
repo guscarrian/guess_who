@@ -9,6 +9,23 @@ intents:
   - sample
   - affirm
   - deny
+  
+entities:
+- eyes
+- hair
+- hair style
+- hair color
+- hair colour
+- eye color
+- eye colour
+- gender
+- background
+- nationality
+- age
+- language
+- languages
+- interest
+- interests
 
 actions:
 - utter_greet
