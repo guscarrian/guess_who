@@ -1,6 +1,3 @@
-
- 
-
 ## negative path
 * greet
   - utter_greet
@@ -32,11 +29,11 @@
 * affirm
   - utter_characters
   - utter_ready
-*user_answers
+* questions
   - action_user_answers
 
 
-## custom user_answers actions
-#*user_answers
-#  - action_user_answers
+## custom uer_answers actions
+* questions
+  - action_user_answers
 

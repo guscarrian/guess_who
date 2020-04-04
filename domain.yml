@@ -1,5 +1,3 @@
-
-
 intents:
   - greet
   - goodbye
@@ -9,6 +7,7 @@ intents:
   - sample
   - affirm
   - deny
+  - questions: {triggers: action_user_answers}
 
 entities:
   - eyes
@@ -26,6 +25,18 @@ entities:
   - languages
   - interest
   - interests
+  - object_type
+  - attribute
+
+
+
+slots:
+  eyes:
+    type: unfeaturized
+  object_type:
+    type: unfeaturized
+  attribute:
+    type: unfeaturized
 
 actions:
   - utter_greet

@@ -14,7 +14,7 @@ import random
 from typing import Any, Text, Dict, List
 
 class Action_User_Answers(ActionQueryKnowledgeBase):
-    selected_character = ""
+    selected_character = "Hello"
     def __init__(self):
         # load knowledge base with data from the given file
         knowledge_base = InMemoryKnowledgeBase("knowledge_base_data.json")
@@ -39,8 +39,8 @@ class Action_User_Answers(ActionQueryKnowledgeBase):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        tracker.latest_message
-        dispatcher.utter_message(text=self.selected_character["name"])
+        print("====> last message: {}".format(tracker.latest_message['entities']))
+        dispatcher.utter_message(text="Character: {}".format(self.selected_character["name"]))
 
         return []
 

@@ -19,36 +19,45 @@
 - Just fine, thank you
 
 ## intent:questions
-- Is the eye color [blue](eyes)?
-- Is the eye colour [blue](eyes)?
-- Are his eyes [blue](eyes)
-- Are her eyes [blue](eyes)?
-- Are the character's eye color [blue](eyes)?
-- Are the character's eye colour [blue](eyes)?
+- Is the [eye color](object_type:eye-color) [brown](attribute)?
+- Is the [eye colour](object_type:eye-color) [blue](attribute)?
+- Are his [eye](object_type:eye-color) [green](attribute)?
+- Are her [eye](object_type:eye-color) [black](attribute)?
+- Are the character's [eye color](object_type:eye-color) [grey](attribute)?
+- Are the character's [eye colour](object_type:eye-color) [blue](attribute)?
 
-- Is the hair color [brown](hair color)?
-- Is the hair colour [brown](hair color)?
-- Is she [blond](hair color)?
+- Is the [hair color](object_type:hair) [brown](attribute)?
+- Is the [hair colour](object_type:hair) [brown](attribute)?
+- Is she [blond](attribute)?
+- Does he have [dark](attribute) [hair](object_type:hair)?
+- Has she got [red](attribute) [hair](object_type:hair)?
+- Is his [hair](object_type:hair) [fair](attribute)?
+- Is his [hair](object_type:hair) [dark](attribute)?
+#Is he a redhead/ginger?
 
-- Does she have [curly](hair style)?
-- Is his hair [curly](hair style)?
+- Does she have [curly](attribute) [hair](object_type:hair)?
+- Is his [hair](object_type:hair) [curly](attribute)?
+- Is the [hair style](object_type:hair) [straight](attribute)?
+- Does he have [wavy](attribute) [hair](object_type:hair)?
+- Does she have [long](attribute) [hair](object_type:hair)?
+- Does he have [short](attribute) [hair](object_type:hair)?
 
-- Is the person a [girl](gender)?
-- Is the character a [girl](gender)?
-- Is the person a [woman](gender)?
-- Is the character a [woman](gender)?
-- Is the person a [female](gender)?
-- Am I a [girl](gender)?
-- Am I a [woman](gender)?
-- Am I a [female](gender)?
-- Is the person a [boy](gender)?
-- Is the character a [boy](gender)?
-- Is the person a [man](gender)?
-- Is the character a [man](gender)?
-- Is the person a [male](gender)?
-- Am I a [boy](gender)?
-- Am I a [man](gender)?
-- Am I a [male](gender)?
+- Is the [person](object_type:gender) a [girl](attribute)?
+- Is the [character](object_type:gender) a [girl](attribute)?
+- Is the [person](object_type:gender) a [woman](attribute)?
+- Is the [character](object_type:gender) a [woman](attribute)?
+- Is the [person](object_type:gender) a [female](attribute)?
+- Am [I](object_type:gender) a [girl](attribute)?
+- Am [I](object_type:gender) a [woman](attribute)?
+- Am [I](object_type:gender) a [female](attribute)?
+- Is the [person](object_type:gender) a [boy](attribute)?
+- Is the [character](object_type:gender) a [boy](attribute)?
+- Is the [person](object_type:gender) a [man](attribute)?
+- Is the [character](object_type:gender) a [man](attribute)?
+- Is the [person](object_type:gender) a [male](attribute)?
+- Am [I](object_type:gender) a [boy](attribute)?
+- Am [I](object_type:gender) a [man](attribute)?
+- Am [I](object_type:gender) a [male](attribute)?
 
 - Did she study [linguistics](background)?
 - Did he study [linguistics](background)?
