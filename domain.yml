@@ -50,22 +50,20 @@ templates:
     image: "https://i.pinimg.com/originals/0e/5e/d3/0e5ed305f4d5a37eb08559dba929805b.jpg"
 
   utter_game_intro:
-  - text: "Great! This is how it works: I’ll show you 10 famous people, you’ll
-  have to pick one of them and I’ll try to guess who you’re thinking of! When 
-  you’re ready, I’ll ask you some questions to which you’ll have to answer ‘yes’, ‘no’ or ‘I don’t know’ according to your knowledge about the person you chose."
+  - text: "Great! This is how it works: from a list of characters I will randomly pick up one of them and you will have to ask yes/no questions to guess who is my character. You can ask about the gender, eye color, hair color, hair style, age, nationality, background, languagues or interests."
  
   utter_start:
   - text: "Are you ready? Let's start!"
 
   utter_characters:
-  - text: "Here are the celebrities. Choose one of them!"
+  - text: "Here are all characters!"
 
   utter_ready:
   - text: "Ready? There we go!"
 
-  utter_question1:
-  - text: "Question 1: Is your character a woman?"
-  - text: "Question 1: Is your character a man?"
+#  utter_question1:
+#  - text: "Question 1: Is your character a woman?"
+#  - text: "Question 1: Is your character a man?"
 
   utter_goodbye:
   - text: "Bye"
