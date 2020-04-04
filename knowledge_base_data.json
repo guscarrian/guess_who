@@ -4,15 +4,17 @@
             "id": 0,
             "name": "Andrea",
             "background": "linguistics",
-            "eyes": "brown",
-            "hair": "brown"
+            "eye-color": "brown",
+            "hair": "brown",
+            "gender":"girl"
         },
         {
             "id": 1,
             "name": "Pepi",
             "background": "Social studies",
-            "eyes": "green",
-            "hair": "brunette"
+            "eye-color": "green",
+            "hair": "brunette",
+            "gender":"girl"
         }
     ]
 }

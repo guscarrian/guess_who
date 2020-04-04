@@ -25,6 +25,7 @@
 - Are her [eye](object_type:eye-color) [black](attribute)?
 - Are the character's [eye color](object_type:eye-color) [grey](attribute)?
 - Are the character's [eye colour](object_type:eye-color) [blue](attribute)?
+- Does she have [blue](attribute) [eyes](object_type:eye-color)?
 
 - Is the [hair color](object_type:hair) [brown](attribute)?
 - Is the [hair colour](object_type:hair) [brown](attribute)?
@@ -62,6 +63,7 @@
 - Did she study [linguistics](background)?
 - Did he study [linguistics](background)?
 - Did I study [linguistics](background)?
+- Does she study [Social studies](background)?
 - Does she have a [linguistic](background) background?
 - Does he have a [linguistic](background) background?
 - Do I have a [linguistic](background) background?
@@ -75,14 +77,6 @@
 
 
 - Am I [older than 26](age)?
-- 
-
-
-
-
-
-
-
 
 
 ## intent:goodbye

@@ -14,21 +14,14 @@ import random
 from typing import Any, Text, Dict, List
 
 class Action_User_Answers(ActionQueryKnowledgeBase):
-    selected_character = "Hello"
+    selected_character = ""
     def __init__(self):
         # load knowledge base with data from the given file
         knowledge_base = InMemoryKnowledgeBase("knowledge_base_data.json")
         self.peopleList = knowledge_base.data["people"]
         self.selected_character = self.getRandCharacter(self.peopleList)
-        self.peopleDict = self.getPeopleDict(self.peopleList)
 
-        print("data: {}".format(self.peopleDict))
-
-        # overwrite the representation function of the hotel object
-        # by default the representation function is just the name of the object
-        knowledge_base.set_representation_function_of_object(
-            "hotel", lambda obj: obj["name"] + " (" + obj["city"] + ")"
-        )
+        print("data: {}".format(self.selected_character))
 
         super().__init__(knowledge_base)
 
@@ -39,23 +32,38 @@ class Action_User_Answers(ActionQueryKnowledgeBase):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        print("====> last message: {}".format(tracker.latest_message['entities']))
-        dispatcher.utter_message(text="Character: {}".format(self.selected_character["name"]))
+        print("Domain: {}".format(domain))
+        entities = tracker.latest_message['entities']
+        print("====> last message: {}".format(entities))
+        
+        object_type = self.getObjectType(entities)
+        attribute_value = self.getAttributeValue(entities)
+        dispatcher.utter_message(text="Answer: {}".format(self.getAnswer(object_type, attribute_value)))
 
         return []
 
     def getRandCharacter(self, peopleList):
-        random_number = random.randrange(0, len(peopleList) - 1) 
+        random_number = random.randrange(0, len(peopleList)) 
         return peopleList[random_number]
 
-    def getPeopleDict(self, peopleList):
-        peopleDict = {}
-        for people in peopleList:
-            print("getPeopleDict: {}".format(people))
-            peopleDict[people["name"]] = {
-                "background": people["background"],
-                "eyes" : people["eyes"],
-                "hair" : people["hair"]
-            }
+    def getAttributeValue(self, entities):
+        if (len(entities) == 1):
+            return entities[0]['value']
+        if (entities[0]['entity'] == "object_type"):
+            return entities[1]['value']
+        
+        return entities['value']
 
-        return peopleDict
+    def getObjectType(self, entities):
+        if (len(entities) == 1):
+            return entities[0]['entity']
+        if (entities[0]['entity'] == "object_type"):
+            return entities[0]['value']
+        
+        return tracker.latest_message['entities'][1]['value']
+
+
+    def getAnswer(self, object_type, attribute_value):
+        if (object_type not in self.selected_character):
+            return "I don't know. Please, ask in a different way"
+        return "Yes" if (self.selected_character[object_type] == attribute_value) else "No"
