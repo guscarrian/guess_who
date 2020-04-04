@@ -9,36 +9,36 @@ intents:
   - sample
   - affirm
   - deny
-  
+
 entities:
-- eyes
-- hair
-- hair style
-- hair color
-- hair colour
-- eye color
-- eye colour
-- gender
-- background
-- nationality
-- age
-- language
-- languages
-- interest
-- interests
+  - eyes
+  - hair
+  - hair style
+  - hair color
+  - hair colour
+  - eye color
+  - eye colour
+  - gender
+  - background
+  - nationality
+  - age
+  - language
+  - languages
+  - interest
+  - interests
 
 actions:
-- utter_greet
-- utter_play_game
-- utter_goodbye
-- utter_idk
-- utter_game_intro
-- utter_ready
-- utter_characters
-- utter_start
-- utter_question1
-- action_user_answers
-- action_query_knowledge_base
+  - utter_greet
+  - utter_play_game
+  - utter_goodbye
+  - utter_idk
+  - utter_game_intro
+  - utter_ready
+  - utter_characters
+  - utter_start
+  - utter_question1
+  - action_user_answers
+  - action_query_knowledge_base
 
 
 templates:
@@ -51,8 +51,8 @@ templates:
 
   utter_game_intro:
   - text: "Great! This is how it works: I’ll show you 10 famous people, you’ll
- have to pick one of them and I’ll try to guess who you’re thinking of! When 
- you’re ready, I’ll ask you some questions to which you’ll have to answer ‘yes’, ‘no’ or ‘I don’t know’ according to your knowledge about the person you chose."
+  have to pick one of them and I’ll try to guess who you’re thinking of! When 
+  you’re ready, I’ll ask you some questions to which you’ll have to answer ‘yes’, ‘no’ or ‘I don’t know’ according to your knowledge about the person you chose."
  
   utter_start:
   - text: "Are you ready? Let's start!"
@@ -71,7 +71,7 @@ templates:
   - text: "Bye"
   - text: "Ok, bye!"
 
- utter_ask_rephrase:
+  utter_ask_rephrase:
   - text: "Sorry, I'm not sure I understand. Can you rephrase?"
   - text: "Can you please rephrase? I did not got that."
 
