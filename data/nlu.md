@@ -56,7 +56,7 @@
 - Am I a [masculine](gender) character?
 #background
 - Did she study [linguistics](background)?
-- Did he study [compute science](background)?
+- Did he study [computer science](background)?
 - Did I study [linguistics](background)?
 - Does she study [social studies](background)?
 - Does she have a [linguistic](background) background?

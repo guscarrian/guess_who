@@ -77,7 +77,7 @@ class Action_User_Answers(ActionQueryKnowledgeBase):
             return "I don't know. Please, ask in a different way"
 
         if (object_type == "name"):
-            playagain =  "Do you want to play again? Enter /restart and say \'Hi\'"
+            playagain =  "The game is over."
             youwon_str = "Congratulations! You won! " + playagain
             youlost_str = "Sorry! You lost the game! " + playagain
             if (attribute_value in self.selected_character[object_type]):

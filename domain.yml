@@ -55,13 +55,13 @@ templates:
     image: "https://i.pinimg.com/originals/0e/5e/d3/0e5ed305f4d5a37eb08559dba929805b.jpg"
 
   utter_game_intro:
-  - text: "Great! This is how it works: from a list of characters I will randomly pick up one of them and you will have to ask yes/no questions to guess who is my character. You can ask about the gender, eye color, hair color, hair style, age, nationality, background, languagues or interests."
+  - text: "Great! This is how it works: from a list of characters I will randomly pick up one of them and you will have to ask yes/no questions to guess who is my character. You can ask about the gender, eye color, hair color, hair style, age, nationality, background or languagues. When you think you are ready to make a guess, please type \"I think the character is <name>\"."
  
   utter_ready:
   - text: "Are you ready?"
 
   utter_characters:
-  - text: "Here are all characters!"
+  - text: "Here are all characters! https://docs.google.com/document/d/1ft9msZ7VPesiEvudveaXTYmf02tqpuhdsj5G_juNHL4/edit?usp=sharing"
 
   utter_start:
   - text: "There we go. Ask a question!"

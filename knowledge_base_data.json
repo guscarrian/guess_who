@@ -8,8 +8,7 @@
             "eye-color": "brown",
             "hair": ["brown", "curly"],
             "background": "linguistics",
-            "language": ["spanish", "english", "french"],
-            "interests": ["singing", "eating ice-cream"]
+            "language": ["spanish", "english", "french"]
         },
         {
             "id": 1,
@@ -19,8 +18,7 @@
             "eye-color": "brown",
             "hair": ["dark", "wavy"],
             "background": ["linguistics", "history", "french"],
-            "language": ["english", "french", "filipino", "spanish"],
-            "interests": ["photography", "music"]
+            "language": ["english", "french", "filipino", "spanish"]
         },
         {
             "id": 2,
@@ -30,8 +28,7 @@
             "eye-color": "blue",
             "hair": ["blond", "fair", "curly"],
             "background": "linguistics",
-            "language": ["spanish", "english", "french", "dutch"],
-            "interests": ["painting", "hiking"]
+            "language": ["spanish", "english", "french", "dutch"]
         },
         {
             "id": 3,
@@ -41,8 +38,7 @@
             "eye-color": "blue",
             "hair": ["brown", "wavy"],
             "background": "linguistics",
-            "language": ["german", "swedish", "english", "french"],
-            "interests": ["hiking", "boardgames"]
+            "language": ["german", "swedish", "english", "french"]
         },
         {
             "id": 4,
@@ -52,8 +48,7 @@
             "eye-color": "brown",
             "hair": ["brown", "curly"],
             "background": "linguistics",
-            "language": ["german", "english", "swedish", "spanish", "french"],
-            "interests": ["reading", "running"]
+            "language": ["german", "english", "swedish", "spanish", "french"]
         },
         {
             "id": 5,
@@ -63,8 +58,7 @@
             "eye-color": "blue",
             "hair": ["blond", "fair", "straight"],
             "background": ["languages", "business informatics"],
-            "language": ["swedish", "english", "french", "german", "hindi", "bengali"],
-            "interests": ["indian movies", "animal rights"]
+            "language": ["swedish", "english", "french", "german", "hindi", "bengali"]
         },
         {
             "id": 6,
@@ -74,19 +68,17 @@
             "eye-color": "brown",
             "hair": ["brown", "straight"],
             "background": "linguistics",
-            "language": ["greek", "english", "greek"],
-            "interests": ["music", "movies"]
+            "language": ["greek", "english", "greek"]
         },
         {
             "id": 7,
             "name": "xiao",
             "gender":["boy", "man", "male", "masculine"],
             "nationality":["germany", "german", "china", "chinese"],
-            "eye-color": "browm",
+            "eye-color": "brown",
             "hair": ["brown", "straight"],
             "background": "linguistics",
-            "language": ["german", "chinese", "english"],
-            "interests": ["piano", "cooking"]
+            "language": ["german", "chinese", "english"]
         },
         {
             "id": 8,
@@ -96,8 +88,7 @@
             "eye-color": "brown",
             "hair": ["blond", "fair", "wavy"],
             "background": "linguistics",
-            "language": ["swedish", "english"],
-            "interests": ["hamster", "hiking"]
+            "language": ["swedish", "english", "russian", "french", "spanish"]
         },
         {
             "id": 10,
@@ -105,10 +96,9 @@
             "gender":["boy", "man", "male", "masculine"],
             "nationality":["denmark", "danish"],
             "eye-color": "brown",
-            "hair": ["brown", "curly"],
+            "hair": ["brown", "wavy"],
             "background": "linguistics",
-            "language": ["danish", "english"],
-            "interests": ["painting", "hiking"]
+            "language": ["danish", "english", "swedish"]
         },
         {
             "id": 11,
@@ -118,8 +108,7 @@
             "eye-color": "brown",
             "hair": ["brown", "wavy"],
             "background": "computer science",
-            "language": ["spanish", "italian", "english", "swedish"],
-            "interests": ["photography", "music"]
+            "language": ["spanish", "italian", "english", "swedish"]
         }
     ]
 }
