@@ -55,7 +55,7 @@ class Action_User_Answers(ActionQueryKnowledgeBase):
         if (entities[0]['entity'] == "object_type"):
             return entities[1]['value']
 
-        return entities['value']
+        return entities[0]['value']
 
     def getObjectType(self, entities):
         if (len(entities) == 1):
