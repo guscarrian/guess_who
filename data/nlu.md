@@ -59,6 +59,11 @@
 - Am I a [boy](gender)?
 - Am I a [man](gender)?
 - Am I a [male](gender)?
+- Is it a [feminine](gender) character?
+- Is is a [masculine](gender) character?
+- Am I a [feminine](gender) character?
+- Am I a [masculine](gender) character?
+
 
 - Did she study [linguistics](background)?
 - Did he study [compute science](background)?
@@ -78,7 +83,21 @@
 
 - Do I come from [Spain](nationality)?
 - Am I from [Germany](nationality)?
-- Does he come from [](nationality)?
+- Does he come from [Italy](nationality)?
+- Is he [Italian](nationality)?
+- Does she come from [Sweden](nationality)?
+- Is she [Canadian](nationality)?
+- Is the character [Danish](nationality?
+- Does he come from [Denmark](nationality)?
+- Am I from [Palentine](nationality?
+- Does the character come from [Palestine](nationality)?
+- Is the character [Palestinian](nationality)?
+- Is the nationality [Polish](nationality)?
+- Is the homeland [Romania](nationality)?
+- Are you [French](nationality)?
+- Do you come from [England](nationality)?
+- Do you come from [the UK](nationality)?
+- Are you from [Chinese](nationality)?
 
 
 - Am I [older than 26](age)?
@@ -115,10 +134,5 @@
 - Maybe
 - I'm not certain about it
 
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
 
 
