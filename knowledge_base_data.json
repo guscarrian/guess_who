@@ -6,7 +6,7 @@
             "gender":["girl", "woman", "female", "feminine"],
             "nationality":["spanish", "spain"],
             "eye-color": "brown",
-            "hair": ["brown", "curly"],
+            "hair": ["brown", "straight"],
             "background": "linguistics",
             "language": ["spanish", "english", "french"]
         },
@@ -68,7 +68,7 @@
             "eye-color": "brown",
             "hair": ["brown", "straight"],
             "background": "linguistics",
-            "language": ["greek", "english", "greek"]
+            "language": ["greek", "english", "german"]
         },
         {
             "id": 7,
