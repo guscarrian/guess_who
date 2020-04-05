@@ -61,14 +61,19 @@
 - Am [I](object_type:gender) a [male](attribute)?
 
 - Did she study [linguistics](background)?
-- Did he study [linguistics](background)?
+- Did he study [compute science](background)?
 - Did I study [linguistics](background)?
-- Does she study [Social studies](background)?
+- Does she study [social studies](background)?
 - Does she have a [linguistic](background) background?
 - Does he have a [linguistic](background) background?
 - Do I have a [linguistic](background) background?
-- Did the character studies [linguistics](background)?
-- Does she have a background on [linguistics](backgound)?
+- Did the character study [journalism](background)?
+- Does she have a background on [programming](backgound)?
+- Is my background on [literature](background)?
+- Did I study [philosophy]?
+- Did the character study [politics](background)?
+- Has the person got a backgound on [English grammar](background)?
+- Has the character a background on [English studies](background)?
 
 
 - Do I come from [Spain](nationality)?
