@@ -94,10 +94,11 @@
 - Am I [Greek](nationality)?
 - Am I [Swedish](nationality)?
 - Am I [Norwegian](nationality)?
-
-
+- Am I [Irish](nationality)?
 - Am I [older than 26](age)?
 
+
+- [I think the character](object_type:name) is [identity](attribute)
 
 ## intent:goodbye
 - bye

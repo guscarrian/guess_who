@@ -1,12 +1,11 @@
 intents:
   - greet
   - goodbye
-  - idk
   - user_answers
   - sample
   - affirm
   - deny
-  - questions: {triggers: action_user_answers}
+  - questions
 
 entities:
   - eyes
@@ -41,12 +40,10 @@ actions:
   - utter_greet
   - utter_play_game
   - utter_goodbye
-  - utter_idk
   - utter_game_intro
   - utter_ready
   - utter_characters
   - utter_start
-  - utter_question1
   - action_user_answers
   - action_query_knowledge_base
 
