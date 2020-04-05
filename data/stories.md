@@ -16,6 +16,7 @@
 * deny
   - utter_goodbye
 
+
 ## affirmative path
 * greet
   - utter_greet
@@ -28,9 +29,5 @@
   - utter_start
 * questions
   - action_user_answers
-
-
-## custom uer_answers actions
-* questions
-  - action_user_answers
+  
 
