@@ -9,6 +9,7 @@
 
 
 ## intent:questions
+#eye_color
 - Is the [eye color](object_type:eye-color) [brown](attribute)?
 - Is the [eye colour](object_type:eye-color) [blue](attribute)?
 - Are his [eye](object_type:eye-color) [green](attribute)?
@@ -16,7 +17,7 @@
 - Are the character's [eye color](object_type:eye-color) [grey](attribute)?
 - Are the character's [eye colour](object_type:eye-color) [blue](attribute)?
 - Does she have [blue](attribute) [eyes](object_type:eye-color)?
-
+#hair_color
 - Is the [hair color](object_type:hair) [brown](attribute)?
 - Is the [hair colour](object_type:hair) [brown](attribute)?
 - Is she [blond](attribute)?
@@ -25,14 +26,14 @@
 - Is his [hair](object_type:hair) [fair](attribute)?
 - Is his [hair](object_type:hair) [dark](attribute)?
 #Is he a redhead/ginger?
-
+#hair_style
 - Does she have [curly](attribute) [hair](object_type:hair)?
 - Is his [hair](object_type:hair) [curly](attribute)?
 - Is the [hair style](object_type:hair) [straight](attribute)?
 - Does he have [wavy](attribute) [hair](object_type:hair)?
 - Does she have [long](attribute) [hair](object_type:hair)?
 - Does he have [short](attribute) [hair](object_type:hair)?
-
+#gender
 - Is the person a [girl](gender)?
 - Is the character a [girl](gender)?
 - Is the person a [woman](gender)?
@@ -53,8 +54,7 @@
 - Is is a [masculine](gender) character?
 - Am I a [feminine](gender) character?
 - Am I a [masculine](gender) character?
-
-
+#background
 - Did she study [linguistics](background)?
 - Did he study [compute science](background)?
 - Did I study [linguistics](background)?
@@ -69,8 +69,7 @@
 - Did the character study [politics](background)?
 - Has the person got a backgound on [English grammar](background)?
 - Has the character a background on [English studies](background)?
-
-
+#nationality
 - Do I come from [Spain](nationality)?
 - Am I from [Germany](nationality)?
 - Does he come from [Italy](nationality)?
@@ -95,9 +94,23 @@
 - Am I [Swedish](nationality)?
 - Am I [Norwegian](nationality)?
 - Am I [Irish](nationality)?
-- Am I [older than 26](age)?
-
-
+#languages
+- Do I [speak](object_type:language) [Italian](attribute)?
+- Does she [speak](object_type:language) [Russian](attribute)?
+- Does he [speak](object_type:language) [Japanese](attribute)?
+- Does the character [speak](object_type:language) [Spanish](attribute)?
+- Do you [speak](object_type:language) [German](attribute)?
+- Can I [speak](object_type:language) [Polish](attribute)?
+- Can she [speak](object_type:language) [English](attribute)?
+- Can he [speak](object_type:language) [Danish](attribute)?
+- Can you [speak](object_type:language) [Swedish](attribute)?
+- Can the character [speak](object_type:language) [Chinese](attribute)?
+- Do you [know](object_type:language) [Arabic](attribute)?
+- Do I [know](object_type:language) [Romanian](attribute)?
+- Does she [know](object_type:language) [Norwegian](attribute)?
+- Does he [know](object_type:language) [Greek](attribute)?
+- Does the character [know](object_type:language) [Malay](attribute)?
+#guessing_sentence
 - [I think the character](object_type:name) is [identity](attribute)
 
 ## intent:goodbye

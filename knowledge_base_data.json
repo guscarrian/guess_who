@@ -6,8 +6,9 @@
             "background": "linguistics",
             "eye-color": "brown",
             "nationality":["spanish", "spain"],
-            "hair": "brown",
-            "gender":["girl", "woman", "female", "feminine"]
+            "hair": ["brown", "curly"],
+            "gender":["girl", "woman", "female", "feminine"],
+            "language": ["spanish", "english", "russian"]
         },
         {
             "id": 1,
@@ -15,8 +16,9 @@
             "background": "social studies",
             "eye-color": "green",
             "nationality": ["russian", "russia"],
-            "hair": "brunette",
-            "gender":["girl", "woman", "female", "feminine"]
+            "hair": ["brunette", "brown", "straight"],
+            "gender":["girl", "woman", "female", "feminine"],
+            "language": ["spanish", "english", "russian", "greek"]
         },
         {
             "id": 2,
@@ -24,8 +26,9 @@
             "background": "computer science",
             "eye-color": "blue",
             "nationality": ["irish", "ireland"],
-            "hair": "blond",
-            "gender":["boy", "man", "male", "masculine"]
+            "hair": ["blond", "fair", "wavy"],
+            "gender":["boy", "man", "male", "masculine"],
+            "language": ["spanish", "swedish", "german", "japanese"]
 
         }
     ]

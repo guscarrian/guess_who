@@ -5,7 +5,7 @@ intents:
   - sample
   - affirm
   - deny
-  - questions
+  - questions: {triggers: action_user_answers}
 
 entities:
   - eyes
@@ -29,8 +29,6 @@ entities:
 
 
 slots:
-  eyes:
-    type: unfeaturized
   object_type:
     type: unfeaturized
   attribute:

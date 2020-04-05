@@ -75,4 +75,16 @@ class Action_User_Answers(ActionQueryKnowledgeBase):
     def getAnswer(self, object_type, attribute_value):
         if (object_type not in self.selected_character):
             return "I don't know. Please, ask in a different way"
+
+        if (object_type == "name"):
+            playagain =  "Do you want to play again? Enter /restart and say \'Hi\'"
+            youwon_str = "Congratulations! You won! " + playagain
+            youlost_str = "Sorry! You lost the game! " + playagain
+            if (attribute_value in self.selected_character[object_type]):
+                self.selected_character = self.getRandCharacter(self.peopleList)
+                print("New Character: {}".format(self.selected_character))
+                return youwon_str
+            else:
+                return youlost_str
+
         return "Yes" if (attribute_value in self.selected_character[object_type]) else "No"
