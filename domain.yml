@@ -54,7 +54,7 @@ actions:
 
 templates:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey, buddy!"
 
   utter_play_game:
   - text: "Do you want to play a game?"
@@ -63,18 +63,14 @@ templates:
   utter_game_intro:
   - text: "Great! This is how it works: from a list of characters I will randomly pick up one of them and you will have to ask yes/no questions to guess who is my character. You can ask about the gender, eye color, hair color, hair style, age, nationality, background, languagues or interests."
  
-  utter_start:
-  - text: "Are you ready? Let's start!"
+  utter_ready:
+  - text: "Are you ready?"
 
   utter_characters:
   - text: "Here are all characters!"
 
-  utter_ready:
-  - text: "Ready? There we go!"
-
-#  utter_question1:
-#  - text: "Question 1: Is your character a woman?"
-#  - text: "Question 1: Is your character a man?"
+  utter_start:
+  - text: "There we go. Ask a question!"
 
   utter_goodbye:
   - text: "Bye"
@@ -84,8 +80,7 @@ templates:
   - text: "Sorry, I'm not sure I understand. Can you rephrase?"
   - text: "Can you please rephrase? I did not got that."
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+
 
 session_config:
   session_expiration_time: 60

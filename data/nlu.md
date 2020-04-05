@@ -7,16 +7,6 @@
 - good evening
 - hey there
 
-## intent:mood
-- I'm fine, thanks
-- I am fine
-- I'm good
-- I feel good
-- Not too bad
-- I'm sad
-- A bit sad
-- Everything's fine, thanks
-- Just fine, thank you
 
 ## intent:questions
 - Is the [eye color](object_type:eye-color) [brown](attribute)?
@@ -97,7 +87,13 @@
 - Are you [French](nationality)?
 - Do you come from [England](nationality)?
 - Do you come from [the UK](nationality)?
-- Are you from [Chinese](nationality)?
+- Are you from [China](nationality)?
+- Are you [Irish](nationality)?
+- Are you [Spanish](nationality)?
+- Is the character from [Austria](nationality)?
+- Am I [Greek](nationality)?
+- Am I [Swedish](nationality)?
+- Am I [Norwegian](nationality)?
 
 
 - Am I [older than 26](age)?

@@ -1,7 +1,6 @@
 ## negative path
 * greet
   - utter_greet
-* mood
   - utter_play_game
 * deny
   - utter_goodbye
@@ -10,25 +9,23 @@
 ## affirmative_incomplete  path
 * greet
   - utter_greet
-* mood
-  - utter_play_game
+  - utter_play
 * affirm 
   - utter_game_intro
-  - utter_start
+  - utter_ready
 * deny
   - utter_goodbye
 
 ## affirmative path
 * greet
   - utter_greet
-* mood
-  - utter_play_game
+  - utter_play
 * affirm
   - utter_game_intro
-  - utter_start
+  - utter_ready
 * affirm
   - utter_characters
-  - utter_ready
+  - utter_start
 * questions
   - action_user_answers
 
