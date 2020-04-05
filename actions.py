@@ -39,8 +39,8 @@ class Action_User_Answers(ActionQueryKnowledgeBase):
             dispatcher.utter_message(text="Answer: {}".format("I cannot understand. Refrase your sentence as a yes/no question."))
             return []
 
-        object_type = self.getObjectType(entities)
-        attribute_value = self.getAttributeValue(entities)
+        object_type = self.getObjectType(entities).lower()
+        attribute_value = self.getAttributeValue(entities).lower()
         dispatcher.utter_message(text="Answer: {}".format(self.getAnswer(object_type, attribute_value)))
 
         return []
