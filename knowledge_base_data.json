@@ -3,33 +3,123 @@
         {
             "id": 0,
             "name": "andrea",
-            "background": "linguistics",
-            "eye-color": "brown",
-            "nationality":["spanish", "spain"],
-            "hair": ["brown", "curly"],
             "gender":["girl", "woman", "female", "feminine"],
-            "language": ["spanish", "english", "russian"]
+            "nationality":["spanish", "spain"],
+            "eye-color": "brown",
+            "hair": ["brown", "curly"],
+            "background": "linguistics",
+            "language": ["spanish", "english", "french"],
+            "interests": ["singing", "eating ice-cream"]
         },
         {
             "id": 1,
-            "name": "pepi",
-            "background": "social studies",
-            "eye-color": "green",
-            "nationality": ["russian", "russia"],
-            "hair": ["brunette", "brown", "straight"],
+            "name": "kate",
             "gender":["girl", "woman", "female", "feminine"],
-            "language": ["spanish", "english", "russian", "greek"]
+            "nationality":["philippines", "philippine", "canada", "canadian"],
+            "eye-color": "brown",
+            "hair": ["dark", "wavy"],
+            "background": ["linguistics", "history", "french"],
+            "language": ["english", "french", "filipino", "spanish"],
+            "interests": ["photography", "music"]
         },
         {
             "id": 2,
-            "name": "isaac",
-            "background": "computer science",
+            "name": "gabriela",
+            "gender":["girl", "woman", "female", "feminine"],
+            "nationality":["romania", "romanian"],
             "eye-color": "blue",
-            "nationality": ["irish", "ireland"],
-            "hair": ["blond", "fair", "wavy"],
+            "hair": ["blond", "fair", "curly"],
+            "background": "linguistics",
+            "language": ["spanish", "english", "french", "dutch"],
+            "interests": ["painting", "hiking"]
+        },
+        {
+            "id": 3,
+            "name": "merle",
+            "gender":["girl", "woman", "female", "feminine"],
+            "nationality":["germany", "german"],
+            "eye-color": "blue",
+            "hair": ["brown", "wavy"],
+            "background": "linguistics",
+            "language": ["german", "swedish", "english", "french"],
+            "interests": ["hiking", "boardgames"]
+        },
+        {
+            "id": 4,
+            "name": "julia",
+            "gender":["girl", "woman", "female", "feminine"],
+            "nationality":["austria", "austrian"],
+            "eye-color": "brown",
+            "hair": ["brown", "curly"],
+            "background": "linguistics",
+            "language": ["german", "english", "swedish", "spanish", "french"],
+            "interests": ["reading", "running"]
+        },
+        {
+            "id": 5,
+            "name": "tova",
+            "gender":["girl", "woman", "female", "feminine"],
+            "nationality":["sweden", "swedish"],
+            "eye-color": "blue",
+            "hair": ["blond", "fair", "straight"],
+            "background": ["languages", "business informatics"],
+            "language": ["swedish", "english", "french", "german", "hindi", "bengali"],
+            "interests": ["indian movies", "animal rights"]
+        },
+        {
+            "id": 6,
+            "name": "kostas",
             "gender":["boy", "man", "male", "masculine"],
-            "language": ["spanish", "swedish", "german", "japanese"]
-
+            "nationality":["greece", "greek"],
+            "eye-color": "brown",
+            "hair": ["brown", "straight"],
+            "background": "linguistics",
+            "language": ["greek", "english", "greek"],
+            "interests": ["music", "movies"]
+        },
+        {
+            "id": 7,
+            "name": "xiao",
+            "gender":["boy", "man", "male", "masculine"],
+            "nationality":["germany", "german", "china", "chinese"],
+            "eye-color": "browm",
+            "hair": ["brown", "straight"],
+            "background": "linguistics",
+            "language": ["german", "chinese", "english"],
+            "interests": ["piano", "cooking"]
+        },
+        {
+            "id": 8,
+            "name": "saga",
+            "gender":["girl", "woman", "female", "feminine"],
+            "nationality":["swedish", "sweden"],
+            "eye-color": "brown",
+            "hair": ["blond", "fair", "wavy"],
+            "background": "linguistics",
+            "language": ["swedish", "english"],
+            "interests": ["hamster", "hiking"]
+        },
+        {
+            "id": 10,
+            "name": "jonas",
+            "gender":["boy", "man", "male", "masculine"],
+            "nationality":["denmark", "danish"],
+            "eye-color": "brown",
+            "hair": ["brown", "curly"],
+            "background": "linguistics",
+            "language": ["danish", "english"],
+            "interests": ["painting", "hiking"]
+        },
+        {
+            "id": 11,
+            "name": "arianna",
+            "gender":["girl", "woman", "female", "feminine"],
+            "nationality":["italy", "italian"],
+            "eye-color": "brown",
+            "hair": ["brown", "wavy"],
+            "background": "computer science",
+            "language": ["spanish", "italian", "english", "swedish"],
+            "interests": ["photography", "music"]
         }
     ]
 }

@@ -112,6 +112,9 @@
 - Does the character [know](object_type:language) [Malay](attribute)?
 #guessing_sentence
 - [I think the character](object_type:name) is [identity](attribute)
+#interests:
+- Does she [like](object_type:interests) [singing](attribute)?
+- 
 
 ## intent:goodbye
 - bye
