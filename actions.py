@@ -35,7 +35,10 @@ class Action_User_Answers(ActionQueryKnowledgeBase):
         print("Domain: {}".format(domain))
         entities = tracker.latest_message['entities']
         print("====> last message: {}".format(entities))
-        
+        if (len(entities) == 0):
+            dispatcher.utter_message(text="Answer: {}".format("I cannot understand. Refrase your sentence as a yes/no question."))
+            return []
+
         object_type = self.getObjectType(entities)
         attribute_value = self.getAttributeValue(entities)
         dispatcher.utter_message(text="Answer: {}".format(self.getAnswer(object_type, attribute_value)))
@@ -43,7 +46,7 @@ class Action_User_Answers(ActionQueryKnowledgeBase):
         return []
 
     def getRandCharacter(self, peopleList):
-        random_number = random.randrange(0, len(peopleList)) 
+        random_number = random.randrange(0, len(peopleList))
         return peopleList[random_number]
 
     def getAttributeValue(self, entities):
@@ -51,7 +54,7 @@ class Action_User_Answers(ActionQueryKnowledgeBase):
             return entities[0]['value']
         if (entities[0]['entity'] == "object_type"):
             return entities[1]['value']
-        
+
         return entities['value']
 
     def getObjectType(self, entities):
@@ -59,7 +62,7 @@ class Action_User_Answers(ActionQueryKnowledgeBase):
             return entities[0]['entity']
         if (entities[0]['entity'] == "object_type"):
             return entities[0]['value']
-        
+
         return tracker.latest_message['entities'][1]['value']
 
 
