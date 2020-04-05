@@ -43,22 +43,22 @@
 - Does she have [long](attribute) [hair](object_type:hair)?
 - Does he have [short](attribute) [hair](object_type:hair)?
 
-- Is the [person](object_type:gender) a [girl](attribute)?
-- Is the [character](object_type:gender) a [girl](attribute)?
-- Is the [person](object_type:gender) a [woman](attribute)?
-- Is the [character](object_type:gender) a [woman](attribute)?
-- Is the [person](object_type:gender) a [female](attribute)?
-- Am [I](object_type:gender) a [girl](attribute)?
-- Am [I](object_type:gender) a [woman](attribute)?
-- Am [I](object_type:gender) a [female](attribute)?
-- Is the [person](object_type:gender) a [boy](attribute)?
-- Is the [character](object_type:gender) a [boy](attribute)?
-- Is the [person](object_type:gender) a [man](attribute)?
-- Is the [character](object_type:gender) a [man](attribute)?
-- Is the [person](object_type:gender) a [male](attribute)?
-- Am [I](object_type:gender) a [boy](attribute)?
-- Am [I](object_type:gender) a [man](attribute)?
-- Am [I](object_type:gender) a [male](attribute)?
+- Is the person a [girl](gender)?
+- Is the character a [girl](gender)?
+- Is the person a [woman](gender)?
+- Is the character a [woman](gender)?
+- Is the person a [female](gender)?
+- Am I a [girl](gender)?
+- Am I a [woman](gender)?
+- Am I a [female](gender)?
+- Is the person a [boy](gender)?
+- Is the character a [boy](gender)?
+- Is the person a [man](gender)?
+- Is the character a [man](gender)?
+- Is the person a [male](gender)?
+- Am I a [boy](gender)?
+- Am I a [man](gender)?
+- Am I a [male](gender)?
 
 - Did she study [linguistics](background)?
 - Did he study [compute science](background)?
@@ -77,8 +77,8 @@
 
 
 - Do I come from [Spain](nationality)?
-- Am I from [Spain](nationality)?
-- Does he come from [Germany](nationality)?
+- Am I from [Germany](nationality)?
+- Does he come from [](nationality)?
 
 
 - Am I [older than 26](age)?

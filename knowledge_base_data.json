@@ -2,19 +2,31 @@
      "people" : [
         {
             "id": 0,
-            "name": "Andrea",
+            "name": "andrea",
             "background": "linguistics",
             "eye-color": "brown",
+            "nationality":["spanish", "spain"],
             "hair": "brown",
-            "gender":"girl"
+            "gender":["girl", "woman", "female", "feminine"]
         },
         {
             "id": 1,
-            "name": "Pepi",
-            "background": "Social studies",
+            "name": "pepi",
+            "background": "social studies",
             "eye-color": "green",
+            "nationality": ["russian", "russia"],
             "hair": "brunette",
-            "gender":"girl"
+            "gender":["girl", "woman", "female", "feminine"]
+        },
+        {
+            "id": 2,
+            "name": "isaac",
+            "background": "computer science",
+            "eye-color": "blue",
+            "nationality": ["irish", "ireland"],
+            "hair": "blond",
+            "gender":["boy", "man", "male", "masculine"]
+
         }
     ]
 }
