@@ -63,7 +63,7 @@ class Action_User_Answers(ActionQueryKnowledgeBase):
         if (entities[0]['entity'] == "object_type"):
             return entities[0]['value']
 
-        return tracker.latest_message['entities'][1]['value']
+        return entities[1]['value']
 
 
     def getAnswer(self, object_type, attribute_value):
