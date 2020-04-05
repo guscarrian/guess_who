@@ -86,9 +86,9 @@
             "gender":["girl", "woman", "female", "feminine"],
             "nationality":["swedish", "sweden"],
             "eye-color": "brown",
-            "hair": ["blond", "fair", "wavy"],
+            "hair": ["blond", "fair", "straight"],
             "background": "linguistics",
-            "language": ["swedish", "english", "russian", "french", "spanish"]
+            "language": ["swedish", "english", "russian", "french", "german"]
         },
         {
             "id": 10,
@@ -109,6 +109,26 @@
             "hair": ["brown", "wavy"],
             "background": "computer science",
             "language": ["spanish", "italian", "english", "swedish"]
+        },
+        {
+            "id": 12,
+            "name": "liliia",
+            "gender":["girl", "woman", "female", "feminine"],
+            "nationality":["ukraine", "ukrainian"],
+            "eye-color": "blue",
+            "hair": ["blond", "fair", "straight"],
+            "background": "journalism",
+            "language": ["ukrainian", "russian", "english", "swedish", "german"]
+        },
+        {
+            "id": 13,
+            "name": "ali",
+            "gender":["boy", "man", "male", "masculine"],
+            "nationality":["palestine", "palestinian"],
+            "eye-color": "brown",
+            "hair": ["brown", "curly"],
+            "background": "literature",
+            "language": ["english", "arabic", "swedish"]
         }
     ]
 }
