@@ -9,7 +9,7 @@
 ## affirmative_incomplete  path
 * greet
   - utter_greet
-  - utter_play
+  - utter_play_game
 * affirm 
   - utter_game_intro
   - utter_ready
@@ -19,7 +19,7 @@
 ## affirmative path
 * greet
   - utter_greet
-  - utter_play
+  - utter_play_game
 * affirm
   - utter_game_intro
   - utter_ready

@@ -2,7 +2,6 @@ intents:
   - greet
   - goodbye
   - idk
-  - mood
   - user_answers
   - sample
   - affirm
