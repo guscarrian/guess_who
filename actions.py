@@ -50,23 +50,29 @@ class Action_User_Answers(ActionQueryKnowledgeBase):
         return peopleList[random_number]
 
     def getAttributeValue(self, entities):
+        attribute_value = None
         if (len(entities) == 1):
-            return entities[0]['value']
-        if (entities[0]['entity'] == "object_type"):
-            return entities[1]['value']
-
-        return entities[0]['value']
+            attribute_value = entities[0]['value']
+        elif (entities[0]['entity'] == "object_type"):
+            attribute_value = entities[1]['value']
+        else:
+            attribute_value = entities[0]['value']
+        return attribute_value
 
     def getObjectType(self, entities):
+        object_type = None
         if (len(entities) == 1):
-            return entities[0]['entity']
-        if (entities[0]['entity'] == "object_type"):
-            return entities[0]['value']
+            object_type = entities[0]['entity']
+        elif (entities[0]['entity'] == "object_type"):
+            object_type = entities[0]['value']
+        else:
+            object_type = entities[1]['value']
 
-        return entities[1]['value']
+        return object_type
+
 
 
     def getAnswer(self, object_type, attribute_value):
         if (object_type not in self.selected_character):
             return "I don't know. Please, ask in a different way"
-        return "Yes" if (self.selected_character[object_type] == attribute_value) else "No"
+        return "Yes" if (attribute_value in self.selected_character[object_type]) else "No"
